@@ -1,0 +1,23 @@
+QWidget {
+    background-color: rgba(30, 30, 46, 0.5);
+}
+
+QPushButton {
+    border-radius: 80px;
+    font-family: "Symbols Nerd Font";
+    font-weight: normal;
+    font-size: 64px;
+    background-color: #1e1e2e;
+    border: 2px solid #313244;
+    outline: none;
+}
+
+QPushButton:focus {
+    background-color: rgb(49, 50, 68);
+    border-color: #cba6f7;
+}
+
+QPushButton:hover {
+    background-color: rgb(49, 50, 68);
+    border-color: #cba6f7;
+}
